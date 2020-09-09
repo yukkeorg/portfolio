@@ -1,0 +1,53 @@
+baseURL = "https://profile.yukke.org/"
+languageCode = "ja-jp"
+title = "Ohshima Yusuke"
+
+theme = "coder-portfolio"
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = ""
+
+[params]
+  author = "Ohshima Yusuke"
+  info = "プログラマー"
+  description = ""
+  keywords = "portfolio,developper"
+  avatarurl = "images/my_avatar.png"
+
+  footercontent = ""
+  fixedbarContent = "インターネット上では yukkeorg として活動しています。"
+  fixedbarContentAfter = ""
+
+  hideCredits = false
+  hideCopyrights = false
+
+  custom_css = []
+
+  rtl = false
+
+  snsShare = true
+  enableTwitterShare = false
+  enableFacebookShare = false
+  enableHatenaShare = false
+  enableLineShare = false
+  enableLinkedInShare = false
+
+  thumbnail = ""
+
+  langseparator = "|"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fab fa-github"
+  weight = 1
+  url = "https://github.com/yukkeorg"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about"
+
