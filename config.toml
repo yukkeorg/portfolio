@@ -1,6 +1,6 @@
 baseURL = "https://yukke.org/"
 languageCode = "ja-jp"
-title = "Ohshima Yusuke"
+title = "Yukke.org"
 
 theme = "coder-portfolio"
 
@@ -12,14 +12,14 @@ pygmentsUseClasses = true
 disqusShortname = ""
 
 [params]
-  author = "Ohshima Yusuke"
+  author = "Yukke.org"
   info = "プログラマー"
   description = ""
   keywords = "portfolio,developper"
   avatarurl = "images/my_avatar.png"
 
   footercontent = ""
-  fixedbarContent = "インターネット上では yukkeorg として活動しています。"
+  fixedbarContent = ""
   fixedbarContentAfter = ""
 
   hideCredits = false
