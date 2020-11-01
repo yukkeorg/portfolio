@@ -1,4 +1,4 @@
-baseURL = "https://yukke.org/"
+baseURL = "https://aboutme.yukke.org/"
 languageCode = "ja-jp"
 title = "Yukke.org"
 
@@ -22,8 +22,8 @@ disqusShortname = ""
   fixedbarContent = ""
   fixedbarContentAfter = ""
 
-  hideCredits = false
-  hideCopyrights = false
+  hideCredits = true
+  hideCopyright = true
 
   custom_css = []
 
