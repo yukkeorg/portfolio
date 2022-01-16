@@ -1,6 +1,4 @@
-# Portfolio
-
-About me.
+# Portfolio - About me
 
 ## Requirements
 
