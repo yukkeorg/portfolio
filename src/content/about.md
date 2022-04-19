@@ -30,21 +30,3 @@ description = "about me"
 * ECMAScript
 * ShellScript(Bash)
 * HTML5/CSS3
-
-
-# 環境
-
-* MAIN-MACHINE
-  * Debian Sid
-  * 自作PC
-    * CPU : Intel Core i7-7700K
-    * MEM : 32GB (PC2400)
-    * GRA : GeForce GTX 1660Ti
-    * HDD : 1TB NVMe SSD
-
-* SUB-MACHINE
-  * Windows10 + WSL2
-  * Lenovo M75q-1 Tiny
-    * CPU : AMD RYZEN 3200 PRO
-    * MEM : 16GB
-
