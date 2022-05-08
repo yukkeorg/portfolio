@@ -49,5 +49,5 @@ disqusShortname = ""
 [[menu.main]]
   name = "About"
   weight = 1
-  url = "about"
+  url = "about/index.html"
 
