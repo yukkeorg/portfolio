@@ -1,53 +1,105 @@
+#theme = "coder-portfolio"
+theme = "PaperMod"
+
 baseURL = "https://yukkeorg.info/"
 languageCode = "ja-jp"
-title = "Yukke.org"
 
-theme = "coder-portfolio"
+title = "Yukke.org Portfolio"
+author = "Yukke.org"
 
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-pygmentsUseClasses = true
+copyright = """
+&copy; 2022 [Yukke.org](https://yukkeorg.info/)
+"""
 
-disqusShortname = ""
+# [[menu.main]]
+# identifier = "Home"
+# name = "Home"
+# url = "/index.html"
+# weight = 10
+# 
+# [[menu.main]]
+# identifier = "Categories"
+# name = "Categories"
+# url = "/categories/index.html"
+# weight = 20
 
 [params]
-  author = "Yukke.org"
-  info = "プログラマー"
-  description = ""
-  keywords = "portfolio,developper"
-  avatarurl = "images/my_avatar.png"
+env = "production"
 
-  footercontent = ""
-  fixedbarContent = ""
-  fixedbarContentAfter = ""
+title = "Yukke.org"
+author = "Yukke.org"
+description = ""
+keywords = ["portfolio", "developper"]
+avatarurl = "images/my_avatar.png"
 
-  hideCredits = true
-  hideCopyright = true
+images = ["images/my_avatar.png"]
+DateFormat = "2006/01/02"
+defaultTheme = "auto"
+disableThemeToggle = false
 
-  custom_css = []
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-  rtl = false
+# [[params.label]]
+# text = "Home"
+# icon = "/apple-touch-icon.png"
+# iconHeight = 35
 
-  snsShare = true
-  enableTwitterShare = false
-  enableFacebookShare = false
-  enableHatenaShare = false
-  enableLineShare = false
-  enableLinkedInShare = false
+# [params.assets]
+# disableHLJS = true # to disable highlight.js
+# disableFingerprinting = true
+# favicon = "<link / abs url>"
+# favicon16x16 = "<link / abs url>"
+# favicon32x32 = "<link / abs url>"
+# apple_touch_icon = "<link / abs url>"
+# safari_pinned_tab = "<link / abs url>"
 
-  thumbnail = ""
+[params.profileMode]
+enabled = true
+title = "Yukke.org"
+subtitle = "Ohshima Yusuke"
+imageUrl = "images/my_avatar.png"
+# imageWidth = 120
+# imageHeight = 120
+# imageTitle = "my image"
 
-  langseparator = "|"
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "/archives/index.html"
 
-[[params.social]]
-  name = "GitHub"
-  icon = "fab fa-github"
-  weight = 1
-  url = "https://github.com/yukkeorg"
+[params.homeInfoParams]
+title = "Yukke.org"
+content = """
+"""
 
-[[menu.main]]
-  name = "About"
-  weight = 1
-  url = "about/index.html"
+[params.cover]
+hidden = false
+hiddenInList = true
+hiddenInSingle = true
 
+[params.editPost]
+url = "https =//github.com/<path_to_repo>/content"
+text = "Suggest Changes"
+appendFilePath = true
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yukkeorg"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/yukkeorg"
+
+[[params.socialIcons]]
+name = "zenn"
+url = "https://zenn.dev/yukkeorg"
