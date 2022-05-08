@@ -24,13 +24,20 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: easingthemes/ssh-deploy@v2.1.1
+      - name: Deploy to AWS S3
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "public/"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
-          TARGET: ${{ secrets.REMOTE_DEST }}
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          aws s3 cp --recursive --region ap-northeast-1 build s3://cfwebsite-1
+
+      # - name: Deploy to Sakura
+      #   uses: easingthemes/ssh-deploy@v2.1.1
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      #     ARGS: "-rltgoDzvO --delete"
+      #     SOURCE: "public/"
+      #     REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+      #     REMOTE_USER: ${{ secrets.REMOTE_USER }}
+      #     REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+      #     TARGET: ${{ secrets.REMOTE_DEST }}
