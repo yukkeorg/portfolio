@@ -4,7 +4,7 @@
 
 * [Hugo](https://gohugo.io/) (require extened version)
 
-## Edit & Check Contents
+## How to edit and check contents
 
 ```
 git clone https://github.com/yukkeorg/portfolio.git
