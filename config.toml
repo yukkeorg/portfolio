@@ -1,7 +1,7 @@
 #theme = "coder-portfolio"
 theme = "PaperMod"
 
-baseURL = "https://yukkeorg.info/"
+baseURL = "https://yukke.org/"
 languageCode = "ja-jp"
 
 title = "Yukke.org Portfolio"

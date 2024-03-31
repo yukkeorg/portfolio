@@ -33,4 +33,4 @@ jobs:
 
       - name: Deploy to AWS S3
         run: |
-          aws s3 sync public s3://cfwebsite-1
+          aws s3 sync public s3://cfwebsite-1 --delete
