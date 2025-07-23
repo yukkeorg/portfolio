@@ -2,13 +2,13 @@
 theme = "PaperMod"
 
 baseURL = "https://yukke.org/"
-languageCode = "ja-jp"
+languageCode = "ja_JP"
 
 title = "Yukke.org Portfolio"
 author = "Yukke.org"
 
 copyright = """
-&copy; 2022-2024 [Yukke.org](https://yukke.org/)
+&copy; 2022-2025 [Yukke.org](https://yukke.org/)
 """
 
 # [[menu.main]]
@@ -49,6 +49,7 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
+social = true
 
 # [[params.label]]
 # text = "Home"
