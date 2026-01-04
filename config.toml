@@ -74,9 +74,9 @@ imageUrl = "images/my_avatar.png"
 # imageHeight = 120
 # imageTitle = "my image"
 
-[[params.profileMode.buttons]]
-name = "Archives"
-url = "/archives/index.html"
+# [[params.profileMode.buttons]]
+# name = "Archives"
+# url = "/archives/index.html"
 
 [params.homeInfoParams]
 title = "Yukke.org"
@@ -98,8 +98,8 @@ name = "github"
 url = "https://github.com/yukkeorg"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/yukkeorg"
+name = "x"
+url = "https://x.com/yukkeorg"
 
 [[params.socialIcons]]
 name = "zenn"
