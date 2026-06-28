@@ -56,7 +56,8 @@ social = true
 # icon = "/apple-touch-icon.png"
 # iconHeight = 35
 
-# [params.assets]
+[params.assets]
+favicon = "images/favicon.ico"
 # disableHLJS = true # to disable highlight.js
 # disableFingerprinting = true
 # favicon = "<link / abs url>"
@@ -96,10 +97,6 @@ appendFilePath = true
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/yukkeorg"
-
-[[params.socialIcons]]
-name = "x"
-url = "https://x.com/yukkeorg"
 
 [[params.socialIcons]]
 name = "zenn"
